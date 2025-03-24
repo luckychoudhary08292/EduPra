@@ -1,0 +1,59 @@
+/* PDF Header Section - Pink Theme */
+.pdf-header {
+    background: linear-gradient(to right, #ff4d88, #ff99cc);
+    padding: 60px 0;
+    border-radius: 8px;
+  }
+  
+  /* Class Heading - Pink Theme */
+  .class-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff1a75;
+    text-shadow: 1px 1px 2px #ff99cc;
+  }
+  
+  /* PDF Card - Pink Theme */
+  .pdf-card {
+    background-color: #fff;
+    border: 1px solid #ff99cc;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+  }
+  
+  .pdf-card img {
+    width: 80px;
+    height: auto;
+  }
+  
+  .pdf-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(255, 20, 147, 0.2);
+  }
+  
+  /* PDF Title */
+  .pdf-card h5 {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e83e8c;
+  }
+  
+  /* PDF Section Heading */
+  #pdf-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff4d88;
+    font-weight: bold;
+  }
+  
+  /* Footer - Pink Theme */
+  footer {
+    background-color: #ff1a75;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  

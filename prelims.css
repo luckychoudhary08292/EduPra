@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffb6c1; /* Light pink background */
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #ff69b4; /* Bright pink */
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000; /* Black text */
+}
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+  color: #000; /* Black text */
+}
+.navbar-nav .nav-link:hover {
+  color: #ff1493 !important;
+}
+
+/* Subject Section */
+.subjects {
+  padding: 50px 0;
+  background-color: #ffb6c1; /* Light pink */
+}
+.subjects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #000; /* Black text */
+}
+.subject-card {
+  background-color: #ff69b4; /* Bright pink */
+  padding: 20px;
+  border: 1px solid #ff1493;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+.subject-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #000; /* Black text */
+}
+.subject-card .btn {
+  margin-top: 10px;
+  background-color: #ff1493;
+  border-color: #ff1493;
+  color: #fff;
+}
+.subject-card .btn:hover {
+  background-color: #e0117a;
+  border-color: #e0117a;
+}
+.subject-card:hover {
+  transform: scale(1.05);
+}
+
+/* Syllabus Section */
+.syllabus {
+  padding: 50px 0;
+  background-color: #ffb6c1; /* Light pink */
+}
+.syllabus h2 {
+  font-size: 2.5rem;
+  color: #000; /* Black text */
+}
+.syllabus .list-group-item {
+  font-size: 1.2rem;
+  padding: 15px 20px;
+  background-color: #ff69b4;
+  color: #000; /* Black text */
+  border: 1px solid #ff1493;
+}
+.syllabus .btn {
+  margin-top: 20px;
+  background-color: #ff1493;
+  border-color: #ff1493;
+  color: #fff;
+}
+.syllabus .btn:hover {
+  background-color: #e0117a;
+}
+
+/* Prelims Videos Section */
+.videos {
+  padding: 50px 0;
+  background-color: #ff69b4; /* Bright pink */
+}
+.videos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #000; /* Black text */
+}
+
+/* Video Container with Horizontal Scroll */
+.video-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #ff69b4 #ffb6c1;
+}
+.video-wrapper {
+  display: inline-flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+.video-item {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  background-color: #ffb6c1; /* Light pink */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+.video-item iframe {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+}
+.video-item p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #000; /* Black text */
+}
+.video-item:hover {
+  transform: scale(1.05);
+}
+
+/* Customize Scrollbar */
+.video-container::-webkit-scrollbar {
+  height: 8px;
+}
+.video-container::-webkit-scrollbar-track {
+  background: #ffb6c1;
+}
+.video-container::-webkit-scrollbar-thumb {
+  background: #ff69b4;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #ff69b4; /* Bright pink */
+  color: #000; /* Black text */
+  padding: 15px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .subjects h2,
+  .syllabus h2,
+  .videos h2 {
+    font-size: 2rem;
+  }
+  .subject-card {
+    margin-bottom: 20px;
+  }
+}
